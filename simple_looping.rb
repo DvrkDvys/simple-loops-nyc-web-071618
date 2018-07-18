@@ -1,11 +1,11 @@
 # REMEMBER: print your output to the terminal using 'puts'
 require 'pry'
 
-def loop_iterator(number_of_times)
+def loop_iterator(num_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0 
   binding.pry
-  number_of_times.times puts phrase
+  num_times.times puts phrase
   counter =+ 1
 end
 
