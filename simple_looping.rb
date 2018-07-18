@@ -1,4 +1,3 @@
-# REMEMBER: print your output to the terminal using 'puts'
 require 'pry'
 
 def loop_iterator(num_times = 0)
