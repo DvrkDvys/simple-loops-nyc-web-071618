@@ -1,7 +1,7 @@
 # REMEMBER: print your output to the terminal using 'puts'
 require 'pry'
 
-def loop_iterator(num_times)
+def loop_iterator(num_times = 0)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0 
   binding.pry
