@@ -2,6 +2,7 @@
 require 'pry'
 
 def loop_iterator(num_times = 0)
+  binding.pry
   phrase = "Welcome to Flatiron School's Web Development Course!"
   counter = 0 
   binding.pry
